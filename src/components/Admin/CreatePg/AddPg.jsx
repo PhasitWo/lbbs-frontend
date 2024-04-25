@@ -27,6 +27,10 @@ function AddBookPage() {
         });
         if (response.status === 201) {
             alert("already created");
+            window.location.reload()
+        } else {
+            let data = await response.json();
+            alert(data.error);
         }
     }
     return (

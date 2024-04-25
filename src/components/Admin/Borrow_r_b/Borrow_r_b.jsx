@@ -110,8 +110,10 @@ const Borrow_r_b = () => {
                                     <div>ชื่อผู้ยืม: {result.member_name}</div>
                                     <div>UID หนังสือ: {result.unique_id}</div>
                                     <div>ชื่อหนังสือ: {result.book_title}</div>
-                                    <div>วันที่จอง: {result.reserve_date} </div>
                                     <div>วันที่ยืม: {result.borrow_date} </div>
+                                    <div>วันที่กำหนดคืน: {result.due_date} </div>
+                                    <div>วันที่จอง: {result.reserve_date} </div>
+                                    <div>วันที่คาดว่าจะได้ยืม: {result.expected_date} </div>
                                     <div>
                                         สถานะ: {result.borrow_status}
                                         {result.borrow_status === "reserve" && (

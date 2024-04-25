@@ -33,7 +33,7 @@ const Book = (book) => {
 
           <div className='book-item-info-item publish-year fs-15'>
             <span className='text-capitalize fw-7'>Genre: </span>
-            <span>{book.genre}</span>
+            <span>{book.genre? book.genre : "No genre found"}</span>
           </div>
 
 
