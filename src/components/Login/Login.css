@@ -1,0 +1,64 @@
+.login{
+    align-items: center;
+    background-color: var(--student-color);
+    display: flex; /* Enable flexbox for the section */
+ /* Center items horizontally */
+    padding: 10rem 6rem;
+    height: 100vh;
+    min-height: 100%; /* Ensure minimum height even if content shrinks */
+    box-sizing: border-box; /* Include padding and border in height calculation */
+}
+
+.input-container{
+    padding-top: 10px;
+}
+
+.text-input {
+    border: 1px solid #ccc; /* Adjust border style and color as needed */
+    border-radius: 15px; /* Set desired roundness (adjust the value) */
+    padding: 5px 10px; /* Adjust padding for aesthetics */
+    display: flex;
+    height: 45px;
+    width: 500px;
+  }
+
+.login-item{
+    padding: 4rem 5rem 2rem;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 15px 0px;
+    transition: var(--transition);
+    display: flex;
+}
+
+.login-button {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #326988;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    padding:15px 16px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+.login:hover{
+    box-shadow: rgba(0, 0, 0, 0.521) 0px 5px 15px 0px;
+}
+.button-container {
+    padding-top: 20px;
+    display: flex; /* Enable flexbox for the button container */
+    justify-content: center; /* Center the button horizontally */
+}
+.login-button:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.40);
+    color : #fffa97;
+    background-color: #068f94; /* New hover color */
+}

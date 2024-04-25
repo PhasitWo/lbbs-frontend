@@ -1,0 +1,38 @@
+.menu-button {
+    font-family: inherit;
+    background-color: var(--blue-color);
+    border: none;
+    padding: 8px 28px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+  
+.menu-button:hover {
+    background-color: var(--light-blue-color);
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.logout-button {
+    font-family: inherit;
+    background-color: var(--red-color);
+    border: none;
+    padding: 8px 28px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+  
+.logout-button:hover {
+    background-color: var(--light-red-color);
+}

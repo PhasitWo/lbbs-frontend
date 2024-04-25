@@ -1,0 +1,15 @@
+.header-content{
+    min-height: 20vh;
+    background: linear-gradient(rgba(75, 109, 115, 0.518), rgba(18, 56, 92, 0.726)), url("../../images/my-library-pic.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    font-size: 4.2rem;
+}
+
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.9;
+    max-width: 770px;
+}

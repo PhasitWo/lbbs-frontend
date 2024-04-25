@@ -1,0 +1,59 @@
+.profile{
+    padding: 3rem 0;
+    background-color: var(--student-color);
+    height: 100%;
+}
+
+.profile-pic{
+    padding: 18px 0 24px 0;
+}
+.log-out{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red-color);
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0px;
+    padding:15px 16px;
+    padding-top: px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.log-out:hover{
+    color: var(--white-color);
+    box-shadow: rgba(0, 0, 0, 0.521) 0px 5px 15px 0px;
+}
+.profile-title{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 18px 0 24px 0;
+}
+
+.menu-info{
+    gap: 4rem;
+}
+
+.menu-info-item{
+    margin-bottom: 1.4rem;
+    padding: 18px 0 8px 0;
+
+}
+
+.menu-info-item:hover{
+    color:var(--white-color);
+}
+
+@media screen and (min-width: 768px){
+    .menu-info{
+        grid-template-columns: 40% 60%;
+        gap: 0
+    }
+
+}
+
